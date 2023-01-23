@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Links to the pages</title>
+</head>
+<body>
+<h1>Links to the pages</h1>
+<ul>
+    <li><a th:href="@{/numbers(n=20)}">Числата,делими на три,от числото N с пример число N = 20</a></li>
+    <li><a th:href="@{/sum-numbers(n=20)}">Сумата на всяко число от 1 до N с пример число N = 10</a></li>
+    <li><a th:href="@{/words(word='Hello',n=5)}">Думата повторена N на брой пъти с пример дума "hello" и число N = 5</a></li>
+</ul>
+</body>
+</html>
